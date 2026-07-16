@@ -18,7 +18,7 @@
   ============================================================ -->
   <data name="NavCleaner.Content"><value>Valytojas</value></data>
   <data name="NavTerminal.Content"><value>Terminalas</value></data>
-  <data name="NavCustom.Content"><value>Pasirinktiniai</value></data>
+  <data name="NavCustom.Content"><value>Naudotojo</value></data>
   <data name="SearchBox.PlaceholderText"><value>Paieška</value></data>
   <data name="BtnPageActions.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Veiksmai puslapyje</value></data>
   <!-- Main Window — donation TeachingTip -->
@@ -44,8 +44,9 @@
   <data name="MenuAnalyzeEntry.Text"><value>Analizuoti</value></data>
   <data name="MenuCleanEntry.Text"><value>Valyti</value></data>
   <data name="MenuExplainEntry.Text"><value>Paaiškinti naudojant DI</value></data>
+  <data name="MenuShowSource.Text"><value>Rodyti kodą</value></data>
   <data name="LblAIDesc.Text"><value>Dešiniuoju pelės mygtuku spustelėkite bet kurį įrašą „Valytojo“ puslapyje → Paaiškinimai naudojant DI. Naudoja „Groq“ (llama-3.3-70b) — nemokamai, jokių sąskaitų. Nieko nesiunčia be jūsų aiškaus veiksmo. Reikalauja asmeninio API rakto.</value></data>
-  <data name="LblAICustomHint.Text"><value>💡 Išsaugojus raktą, DI funkcija tampa prieinama ir puslapyje „Pasirinktiniai valymai“ – apibūdinkite, ką reikia išvalyti, ir ji jums sukurs parengtą naudoti „Winapp2“ įrašą arba „PowerShell“ scenarijų.</value></data>
+  <data name="LblAICustomHint.Text"><value>💡 Išsaugojus raktą, DI funkcija tampa prieinama ir puslapyje „Naudotojo valymai“ – apibūdinkite, ką reikia išvalyti, ir ji jums sukurs parengtą naudoti „Winapp2“ įrašą arba „PowerShell“ scenarijų.</value></data>
   <data name="ResultsHeader.Text"><value>Rezultatai</value></data>
   <data name="BtnBackToResults.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Grįžti prie rezultatų</value></data>
   <data name="BtnCleanDetail.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Pašalinti šiuos failus dabar</value></data>
@@ -87,6 +88,8 @@
   <data name="DlgWarningMessage"><value>Pasirinktuose „Winapp2“ įrašuose yra šie įspėjimai:</value></data>
   <data name="DlgExplainThinking"><value>Galvoju…</value></data>
   <data name="DlgExplainClose"><value>Uždaryti</value></data>
+  <data name="DlgSourceCopy"><value>Kopijuoti</value></data>
+  <data name="DlgSourceReport"><value>Pranešti apie įrašą</value></data>
   <data name="DlgRestartTitle"><value>Reikia paleisti iš naujo</value></data>
   <data name="DlgRestartMessage"><value>Kad būtų naudojama nauja kalba, „FluentCleaner“ reikia paleisti iš naujo.</value></data>
   <data name="DlgRestartNow"><value>Paleisti iš naujo</value></data>
@@ -195,7 +198,7 @@
   <!-- Settings Page — code strings -->
   <data name="St_Winapp3NotDownloaded"><value>„Winapp3“ dar neatsisiųsta — spustelėkite „Atsisiųsti“.</value></data>
   <data name="St_WinappxNotDownloaded"><value>„Winappx“ dar neatsisiųsta — spustelėkite „Atsisiųsti“.</value></data>
-  <data name="St_HistoryNone"><value>dar jokių įrašų apie vykdymus</value></data>
+  <data name="St_HistoryNone"><value>dar nėra jokių įrašų apie vykdymus</value></data>
   <data name="St_HistorySummary"><value>{0} vykdymų · {1} iš viso atlaisvinta</value></data>
   <data name="St_HistoryItems"><value>{0} elementų</value></data>
   <data name="St_FileNotFound"><value>Failas nerastas: {0}</value></data>
@@ -232,7 +235,7 @@
   <data name="BtnRunScript.Text"><value>Vykdyti</value></data>
 
   <!-- Custom Page — code strings -->
-  <data name="St_CustomStatus"><value>{0} valytuvas · {1} įjungta</value></data>
+  <data name="St_CustomStatus"><value>{0} valytuvas(-ai) · {1} įjungta</value></data>
   <data name="St_CustomStatusScripts"><value>{0} skriptas(-ai)</value></data>
   <data name="St_CustomMenuNew"><value>Naujas naudotojo valytuvas</value></data>
   <data name="St_CustomMenuOpenFolder"><value>Atverti pasirinktinį aplanką</value></data>
@@ -251,7 +254,7 @@
   <data name="St_CustomFailed"><value>{0}: nepavyko (kodas {1}).</value></data>
   <data name="St_CustomEntryNone"><value>nėra išanalizuotų įrašų</value></data>
   <data name="St_CustomEntryOne"><value>1 įrašas · {0}</value></data>
-  <data name="St_CustomEntryMany"><value>{0} įrašų · {1}</value></data>
+  <data name="St_CustomEntryMany"><value>{0} įrašas(-ai) · {1}</value></data>
   <data name="St_CustomEntryEnabled"><value>įjungta</value></data>
   <data name="St_CustomEntryDisabled"><value>išjungta</value></data>
 
